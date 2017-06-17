@@ -29,7 +29,7 @@ defmodule SD.Web.Endpoint do
   plug Plug.MethodOverride
   plug Plug.Head
 
-  plug Corsica, origins: "*", allow_headers: ["accept", "content-type"]
+  plug Corsica, origins: ["http://localhost:8080", "http://brendonandashlyn.com"], allow_headers: ["accept", "content-type"]
 
   # The session will be stored in the cookie and signed,
   # this means its contents can be read but not tampered with.
