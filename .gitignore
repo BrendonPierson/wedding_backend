@@ -16,5 +16,5 @@ erl_crash.dump
 /config/*.secret.exs
 
 .DS_Store
-.rel/special_day
+rel/special_day
 .DS_Store

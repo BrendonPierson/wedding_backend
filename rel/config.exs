@@ -2,7 +2,7 @@ use Mix.Releases.Config,
     # This sets the default release built by `mix release`
     default_release: :default,
     # This sets the default environment used by `mix release`
-    default_environment: :dev
+    default_environment: :prod
 
 # For a full list of config options for both releases
 # and environments, visit https://hexdocs.pm/distillery/configuration.html
@@ -33,4 +33,3 @@ end
 release :special_day do
   set version: current_version(:special_day)
 end
-
